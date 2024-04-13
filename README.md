@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project utilizes data from the European Centre for Disease Prevention and Control (ECDC) to track weekly cases, deaths, and hospital admissions related to COVID-19 in Europe leveraging Azure Data Engineering services.
+This project utilizes data from the European Centre for Disease Prevention and Control (ECDC) to track weekly cases, deaths, and hospital admissions related to COVID-19 in Europe using Azure Data Engineering services.
 
 ## Solution Architecture
 
-The architecture aims to integrate data from different sources utilizing Azure Data Factory for data ingestion, orchestration, and scheduling, Azure Storage solutions, SQL Database, HDInsight, Databricks, and Power BI for data processing and analysis, with monitoring and reporting enabled through Azure Monitor and Log Analytics.
+The architecture aims to integrate data from different sources utilizing Azure Data Factory for data ingestion, orchestration, and scheduling, Azure Data Lake Storage Gen2, AZure Blob Strorage and Azure SQL Database as a storage solutions, HDInsight, Databricks, and Power BI for data processing and analysis, with monitoring and reporting enabled through Azure Monitor and Log Analytics.
 
 ![Solution Architecture](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/fdca07db-68e1-4786-823a-d562ef64b172)
 
@@ -54,7 +54,7 @@ This process includes creating triggers and pipeline dependencies to automate th
 
 ## Visulaization 
 
-We used microsoft Power BI for data analyis and visualization
+We used Microsoft Power BI for data analysis and visualization
 
 ![powerbi 1](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/8ddeb692-0759-4105-b58f-69ae5eec34df)
 
