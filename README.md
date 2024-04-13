@@ -22,17 +22,28 @@ Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2
 
 ## Data Transformation
 
-This stage include processing data using three different services:
+This stage include processing data using three different services, and loading it into Azure Gen2 Data Lake storage account in a processed form, which represents the **silver** layer of our architecture.
 
 ### 1-Data Flow 
 
--Processing Case and death data
+**Processing Case and death data**
 
 ![3-Transform_case_and_death](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/d3c457cb-4591-4e72-9c69-962aa0c66839)
 
--Processing hosbital admission
+**Processing hosbital admission**
 
 ![4-Transform_hosbital_admission](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/f80dd0cc-d4b0-4859-b537-d8889b3413ea)
+
+### 2-Databricks
+
+The process involves creating a cluster and a new registration under App Registrations of Microsoft Entra ID, then processing population data using databricks notbook utilizing pyspark.
+
+![image](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/47603f99-45a6-49bd-a205-054a99ebf3c1)
+
+### 3-HDinsight
+
+The process involves creating a hadoop cluster and processing testing data using hive.
+
 
 
 
