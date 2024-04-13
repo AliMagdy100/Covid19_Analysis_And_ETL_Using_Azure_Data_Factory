@@ -12,7 +12,7 @@ The architecture aims to integrate data from different sources utilizing Azure D
 
 ## Data Ingestion
 
-Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2 Data Lake storage account in its raw form, which represents the **bronze** layer of our architecture.
+Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2 Data Lake storage account in its raw form, which represents the **Bronze** layer of our architecture.
 
 ### 1-Population Data Ingestion
 ![Population Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/404a7656-64e0-4707-ae40-adffeb960447)
@@ -22,7 +22,7 @@ Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2
 
 ## Data Transformation
 
-This stage include processing data using three different services, and loading it into Azure Gen2 Data Lake storage account in a processed form, which represents the **silver** layer of our architecture.
+This stage include processing data using three different services, and loading it into Azure Gen2 Data Lake storage account in a processed form, which represents the **Silver** layer of our architecture.
 
 ### 1-Data Flow 
 
@@ -42,15 +42,31 @@ The process involves creating a cluster and a new registration under App Registr
 
 ### 3-HDinsight
 
-The process involves creating a hadoop cluster and processing testing data using hive.
+Creating a hadoop cluster and processing testing data using Hive.
 
 ## Data loading
 
-This Process involves loading the desired data into Azure SQL Database which represents our **gold** layer that we will use to finally analyse our data.
+loading the desired data into Azure SQL Database which represents our **Gold** layer that we will use to finally analyse our data.
 
 ## Workflow Orchesteration
 
-This process includes creating storage based and tumbling window triggers for the pipelines and also create pipeline dependencies to automate the whole process on daily basis.
+This process includes creating triggers and pipeline dependencies to automate the whole process on daily basis.
+
+## Visulaization 
+
+We used microsoft Power BI for data analyis and visualization
+
+![powerbi 1](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/8ddeb692-0759-4105-b58f-69ae5eec34df)
+
+
+## Resources
+
+[European Centre for Disease Prevention and Control (ECDC) - Downloadable Datasets](https://www.ecdc.europa.eu/en/data/downloadable-datasets)
+
+[Udemy - Learn Azure Data Factory from Scratch](https://www.udemy.com/course/learn-azure-data-factory-from-scratch/?kw=azure+data+factory+fo+da&src=sac)
+
+[GitHub - Covid19_23 Repository](https://github.com/SidEnigma/covid19_23)
+
 
 
 
