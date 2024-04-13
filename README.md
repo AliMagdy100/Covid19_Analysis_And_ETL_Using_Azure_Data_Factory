@@ -12,10 +12,27 @@ The architecture aims to integrate data from different sources utilizing Azure D
 
 ## Data Ingestion
 
-Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2 Data Lake storage account in its raw form, which represents the silver layer of our architecture.
+Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2 Data Lake storage account in its raw form, which represents the **bronze** layer of our architecture.
 
-### Population Data Ingestion
+### 1-Population Data Ingestion
 ![Population Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/404a7656-64e0-4707-ae40-adffeb960447)
 
-### ECDC Data Ingestion
+### 2-ECDC Data Ingestion
 ![ECDC Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/ad7adcd4-930a-479f-b775-764f81a48f65)
+
+## Data Transformation
+
+This stage include processing data using three different services:
+
+### 1-Data Flow 
+
+-Processing Case and death data
+
+![3-Transform_case_and_death](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/d3c457cb-4591-4e72-9c69-962aa0c66839)
+
+-Processing hosbital admission
+
+![4-Transform_hosbital_admission](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/f80dd0cc-d4b0-4859-b537-d8889b3413ea)
+
+
+
