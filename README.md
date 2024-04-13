@@ -14,5 +14,7 @@ The architecture aims to integrate data from differnt sources utilizing Azure Da
 ## Data Ingestion
 Data is ingested from azure blob storage and from http connector into Azure GEN 2 Data Lake storage account which represent the silver layer of our architechture 
 
-![Population Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/404a7656-64e0-4707-ae40-adffeb960447 "Data Ingestion: Ingesting data from Azure Blob Storage and HTTP connector into Azure GEN 2 Data Lake storage account, representing the silver layer of our architecture")
+![Population Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/404a7656-64e0-4707-ae40-adffeb960447)
 
+
+![ECDC Data Ingestion](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/ad7adcd4-930a-479f-b775-764f81a48f65)
