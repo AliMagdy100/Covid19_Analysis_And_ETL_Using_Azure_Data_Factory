@@ -65,7 +65,7 @@ We used Microsoft Power BI for data analysis and visualization
 
 [Udemy - Learn Azure Data Factory from Scratch](https://www.udemy.com/course/learn-azure-data-factory-from-scratch/?kw=azure+data+factory+fo+da&src=sac)
 
-[GitHub - Covid19_23 Repository](https://github.com/SidEnigma/covid19_23)
+[GitHub - Covid19 Repository]([https://github.com/SidEnigma/covid19_23](https://github.com/cloudboxacademy/covid19))
 
 
 
