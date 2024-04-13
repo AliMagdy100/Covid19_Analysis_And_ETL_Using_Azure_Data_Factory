@@ -44,6 +44,14 @@ The process involves creating a cluster and a new registration under App Registr
 
 The process involves creating a hadoop cluster and processing testing data using hive.
 
+## Data loading
+
+This Process involves loading the desired data into Azure SQL Database which represents our **gold** layer that we will use to finally analyse our data.
+
+## Workflow Orchesteration
+
+This process includes creating storage based and tumbling window triggers for the pipelines and also create pipeline dependencies to automate the whole process on daily basis.
+
 
 
 
