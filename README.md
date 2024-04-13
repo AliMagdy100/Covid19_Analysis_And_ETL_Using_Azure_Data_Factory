@@ -61,13 +61,11 @@ We used Microsoft Power BI for data analysis and visualization
 
 ## Resources
 
-[European Centre for Disease Prevention and Control (ECDC) - Downloadable Datasets](https://www.ecdc.europa.eu/en/data/downloadable-datasets)
+[European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/data/downloadable-datasets)
 
-[Udemy - Learn Azure Data Factory from Scratch](https://www.udemy.com/course/learn-azure-data-factory-from-scratch/?kw=azure+data+factory+fo+da&src=sac)
+[GitHub - Cloudboxacademy Covid19 Repository](https://github.com/cloudboxacademy/covid19)
 
-[GitHub - Covid19 Repository]([https://github.com/SidEnigma/covid19_23](https://github.com/cloudboxacademy/covid19))
-
-
+[Project Case Study ](https://www.udemy.com/course/learn-azure-data-factory-from-scratch/?kw=azure+data+factory+fo+da&src=sac)
 
 
 
