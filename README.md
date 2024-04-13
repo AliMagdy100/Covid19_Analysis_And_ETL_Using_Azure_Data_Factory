@@ -10,7 +10,7 @@ The architecture aims to integrate data from different sources utilizing Azure D
 
 ![Solution Architecture](https://github.com/AliMagdy100/Covid19_Analysis_Using_Azure_Data_Factory/assets/87953057/fdca07db-68e1-4786-823a-d562ef64b172)
 
-## Data Ingestion
+## Data Extraction and Ingestion
 
 Data is ingested from Azure Blob Storage and from HTTP connector into Azure Gen2 Data Lake storage account in its raw form, which represents the **Bronze** layer of our architecture.
 
